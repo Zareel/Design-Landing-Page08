@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Electrolize&family=Fredoka+One&family=Gruppo&family=Indie+Flower&family=Lato:wght@300&family=Montserrat:wght@400;900&family=Orbitron:wght@400;600&family=Oswald:wght@200;700&family=Poppins:wght@100;200&family=Quantico:wght@400;700&family=Red+Rose:wght@300;700&family=Roboto:wght@100;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Electrolize&family=Fredoka+One&family=Gruppo&family=Indie+Flower&family=Lato:wght@300&family=Montserrat:wght@400;900&family=Orbitron:wght@400;600&family=Oswald:wght@200;700&family=Poppins:wght@200;300;400;500&family=Quantico:wght@400;700&family=Red+Rose:wght@300;700&family=Roboto:wght@100;300;400;500&display=swap');*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+    font-family: Roboto;
+}
+
+.main-div::before {
+    content: "";
+    background: url("/images/backcover.svg");
+    background-repeat: no-repeat;
+    position: absolute; 
+    background-position: bottom left;
+    top: 0;
+    right: 0;
+    width: 900px;
+    height: 720px;
+}
+
+/* ----------------------Navbar---------------------- */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 40px 0px 80px;
+}
+
+nav img {
+    cursor: pointer;
+    width: 110px;
+}
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    font-family: 'poppins';
+}
+
+.nav-item {
+    font-size: 15px;
+    color: #3e418a;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-items h5{
+    padding: 20px;
+}
+.nav-items h5:nth-child(4){
+    color: #0b0b12;
+}
+.nav-items h5:nth-child(5){
+    color:#0b0b12;
+}
+
+.signin-btn{
+    font-family: 'poppins';
+    font-size: 14px;
+    padding: 4px 20px;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    color: #fff;
+    background: linear-gradient(to right,  #5257d1, #e989e9);
+    margin-left: 75px;
+    margin-right: 95px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 16px;
+    
+} 
+/* ----------------------Intro section------------------------- */
+
+.intro-section{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+/* ---------------------Left Section--------------------------- */
+.left-section h1{
+    font-size: 70px;
+    color: #3e418a;
+    letter-spacing: 0.1rem;
+    margin-top: 95px;
+    margin-left: 90px;
+}
+.left-section h4{
+    font-size: 14px;
+    font-weight: 200;
+    font-family: 'poppins';
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.learn-more-btn {
+    padding: 10px 30px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    margin-left: 100px;
+    margin-top: 40px;
+    background: linear-gradient(to right,#5257d1, #e989e9 );
+    font-family: 'poppins';
+    font-size: 22px;
+    font-weight: 500;
+    color:#fff;
+    
+    
+}
+
+/* --------------------SVG------------------- */
+
+.imgs-div{
+    position: relative;
+}
+
+img[alt="vector-img"] {
+    position: relative;
+    right: 70px;
+    bottom: 120px;
+    width: 100px;
+}
+
+img[alt="vector-dot"] {
+    position: relative;
+    bottom: 210px;
+    right: 110px;
+    width: 20px;
+}
+
+img[alt="intro-img"] {
+    position: relative;
+    width: 700px;
+    right: 140px;
+    
+}
