@@ -4,7 +4,7 @@
 
 ![LOC-Mascot](https://learncodeonline.in/mascot.png)![badge](https://img.shields.io/badge/LearnCodeOnline-iNeuron-green)
 
-# Project-
+# Project
 
 ![Project09](./images/Project08.png)
 
