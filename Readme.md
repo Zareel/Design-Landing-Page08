@@ -6,7 +6,7 @@
 
 # Project
 
-![Project09](./images/Project08.png)
+![Project08](./images/Project08.png)
 
 ![badge](https://img.shields.io/badge/HTML-CSS-green)
-![badge](https://img.shields.io/badge/-MediaQuery-orange)
+
